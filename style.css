@@ -8,7 +8,7 @@ body {
     background-color: #f5f5f5;
 }
 
-#container {
+.container {
     min-width: 400px;
     max-width: 1400px;
     margin: 0 auto;
@@ -19,7 +19,7 @@ body {
     background-color: rgb(161, 161, 238);
 }
 
-#header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,17 +28,36 @@ body {
     border-bottom: 1px solid #ccc;
 }
 
-#logo {
+.logo {
     display: flex;
     align-items: center;
 }
 
-li {
+.logo h1 {
+    font-family: sans-serif, Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    color: .000;
+    margin-left: 15px;
+}
+
+.main-menu ul li {
     display: inline;
 }
 
 li a {
     text-decoration: none;
-    color: #000;
+    color: .000;
     padding: 0px 10px;
+}
+
+.hero {
+    height: 80vh;
+    background-color: #b8b8b8;
+}
+
+.hero {
+    background: url(./images/wan-san-yip-7X60-5nr3Tk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
